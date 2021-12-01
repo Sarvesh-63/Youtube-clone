@@ -9,7 +9,7 @@ import {Navbar,Container,Nav,InputGroup,FormControl,Button} from "react-bootstra
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Nav>
             <InputGroup className="mb-3">
-              <FormControl placeholder="Search " aria-label="search on ta youtube"  onChange={onSearch} />
+              <FormControl className="col-md-6 col-md-offset-3"  placeholder="Search " aria-label="search on ta youtube"  onChange={onSearch} />
               <Button variant="danger" type="submit">
                 Search
               </Button>

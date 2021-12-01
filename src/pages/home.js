@@ -28,7 +28,7 @@ const Home = () => {
          <div class = "spinner-grow" role = "status" > <span class = "sr-only"></span></div>
          </div>
       ) : (
-        <Row xs={1} md={3} className="g-4">
+        <Row xs={2} md={5} className="g-4">
           {videos
             .filter((e) =>
               searchText.length !== 0
